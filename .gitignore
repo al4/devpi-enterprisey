@@ -8,3 +8,4 @@ devpi_*.changes
 devpi_*.deb
 devpi_*.upload
 wiki/
+.vagrant/
