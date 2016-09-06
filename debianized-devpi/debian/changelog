@@ -1,3 +1,9 @@
+devpi (4.0.0-2~jessie) jessie; urgency=medium
+
+  * Non-maintainer upload.
+
+ -- Alex Forbes <github@al4.co.nz>  Tue, 06 Sep 2016 16:32:29 +0000
+
 devpi (4.0.0-2~xenial) xenial; urgency=high
 
   * Xenial build (with Python3)
