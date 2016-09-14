@@ -1,3 +1,10 @@
+devpi (4.1.0-1~jessie) jessie; urgency=medium
+
+  * Update to 4.1.0
+  * Non-maintainer upload.
+
+ -- Alex Forbes <github@al4.co.nz>  Wed, 14 Sep 2016 15:46:28 +0000
+
 devpi (4.0.0-2~jessie) jessie; urgency=medium
 
   * Non-maintainer upload.
