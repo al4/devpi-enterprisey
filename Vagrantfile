@@ -67,6 +67,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     echo 'deb http://httpredir.debian.org/debian jessie-backports main non-free contrib' | sudo tee -a /etc/apt/sources.list
+    echo 'en_GB.UTF-8 UTF-8' >> /etc/locale.gen
     sudo localedef -i en_GB -f UTF-8 en_GB.UTF-8  # install en_GB locale
     sudo apt-get update
     sudo apt-get install -y vim build-essential debhelper curl tar gzip devscripts
