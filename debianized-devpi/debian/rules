@@ -30,7 +30,7 @@ DEVPI_URL=$(DEVPI_SERVER_PYPI)$(shell curl -sL $(DEVPI_SERVER_PYPI) \
 DEVPI_FREEZE="devpi-client==2.6.4 devpi-common==3.0.1 devpi-web==3.1.1 requests==2.11.1"
 
 # Add plugin packages, as a space- or comma-separated list
-DEVPI_PLUGINS="devpi-findlinks==1.0.1 devpi-ldap=1.2.0"
+DEVPI_PLUGINS="devpi-findlinks==1.0.1 devpi-ldap==1.2.0"
 
 PACKAGE_NAME=$(shell head -n1 debian/changelog | cut -f1 -d" ")
 DEB_VERSION=$(shell head -n1 debian/changelog | sed -r 's/^$(PACKAGE_NAME)..([.0-9a-z]+).*$$/\1/')
