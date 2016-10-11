@@ -7,5 +7,6 @@ debianized-devpi/debian/debhelper-build-stamp
 devpi_*.changes
 devpi_*.deb
 devpi_*.upload
+devpi_*.dsc
 wiki/
 .vagrant/
