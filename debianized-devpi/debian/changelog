@@ -1,3 +1,10 @@
+devpi (4.1.0-2~jessie) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Add devpi-ldap
+
+ -- Vagrant Default User <vagrant@jessie.raw>  Tue, 11 Oct 2016 16:20:16 +0000
+
 devpi (4.1.0-1~jessie) jessie; urgency=medium
 
   * Update to 4.1.0
